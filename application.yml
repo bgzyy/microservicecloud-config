@@ -4,7 +4,7 @@ spring:
       - dev
 
 ---
-spring
+spring:
   profiles: dev
   application:
     name: microservciecloud-config-bgzyy-dev
