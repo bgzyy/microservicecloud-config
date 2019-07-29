@@ -1,16 +1,16 @@
-# spring:
-#   profiles:
-#     active:
-#       - dev
+spring:
+  profiles:
+    active:
+      - dev
 
-# ---
-# spring:
-#   profiles: dev
-#   application:
-#     name: microservciecloud-config-bgzyy-dev
+---
+spring:
+  profiles: dev
+  application:
+    name: microservciecloud-config-bgzyy-dev
 
-# ---
-# spring:
-#   profiles: test
-#   application:
-#     name: microservciecloud-config-bgzyy-test
+---
+spring:
+  profiles: test
+  application:
+    name: microservciecloud-config-bgzyy-test
